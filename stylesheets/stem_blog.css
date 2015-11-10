@@ -2,11 +2,9 @@ html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
-      background-color: #C2C2D6;
 }
 body {
 	text-align: center;
-	background-color: #C2C2D6;
 	color: white;
 }
 header {
@@ -18,6 +16,19 @@ header {
 	padding: 20px 40px 20px 40px;
 	margin: 0px 0px 0px 0px;
 }
+h3 {
+	text-align: left;
+}
+h4 {
+	text-align: justify;
+}
+form {
+	color: #660066;
+	font-size: 15px;
+	padding: 20px 0px 20px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
 p {
 	text-align: center;
 	background-color: #C2C2D6;
@@ -26,6 +37,7 @@ p {
 	padding: 20px 0px 20px 0px;
 	margin: 0px 0px 0px 0px;
 }
+
 #navbar div {
 	width: 100%;
 	float: left;
@@ -55,7 +67,17 @@ p {
 div {
 	border: 1px solid white;
 }
-form {
-	color: #c295d0;
-
+.form-group {
+	text-align: left;
+	color: #660066;
+	font-size: 15px;
+	padding: 10px 0px 10px 0px;
+	margin: 0px 0px 0px 0px;
 }
+
+img {
+	max-width: 100%;
+	max-height: 60%;
+}
+
+
